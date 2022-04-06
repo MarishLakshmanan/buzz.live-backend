@@ -9,7 +9,7 @@ const io = require("socket.io")(server,{
     }
 });
 const { PeerServer } = require('peer');
-const peerServer = PeerServer({ port: 9000, path: '/peerSer' });
+const peerServer = PeerServer({ port: 443, path: '/peerSer' });
 const nodemailer = require("nodemailer");
 
 
