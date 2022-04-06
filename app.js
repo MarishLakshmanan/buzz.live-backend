@@ -63,7 +63,7 @@ app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 
 
 app.get("/",(req,res)=>{
-    res.send("Hello there")
+    res.send("Hello there User")
 })
 app.post("/login",login)
 
